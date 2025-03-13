@@ -75,6 +75,6 @@ PassengerId: ID of each passenger from the test dataset.
 Survival: Predicted survival status (0 = Did not survive, 1 = Survived).
 
 ## Conclusion
-In this project, we successfully built a Random Forest classifier to predict the survival chances of Titanic passengers. Through data preprocessing, feature engineering, imputation, and model training, we were able to create a robust model with 83.8% accuracy on the training set.
+In this project, we successfully built a Random Forest classifier to predict the survival chances of Titanic passengers. Through data preprocessing, feature engineering, imputation, and model training, we were able to create a robust model with 84.36% accuracy on the training set.
 
 
