@@ -7,15 +7,15 @@ There will be three main steps in this experiment:
 
 .Feature Engineering
 
-
 .Imputation
-
 
 .Training and Prediction
 
 For this project, we will utilize the Titanic dataset. The dataset consists of the following files:
 1.train.csv: Contains information about the passengers and their survival status, which will be used for training our model. Serves as our primary data source for training and validation, providing both features and target labels.
+
 2.test.csv: Includes details of passengers without survival labels, which we will use for making predictions. Allows us to assess the model’s performance on unseen data, simulating a real-world scenario where predictions must be made for new passengers.
+
 3.gender_submission.csv: A sample submission file that demonstrates the format required for submitting predictions.
 
 ## Step-by-Step Implementation: Predicting Titanic Survival
@@ -57,7 +57,9 @@ Now we are done with the feature engineering.
 In this phase, we employ Random Forest as our algorithm to train the model for predicting survival. Key steps include:
 
 .Data Splitting: Dividing the dataset into 80% training and 20% testing subsets using train_test_split() from the sklearn library.
+
 .Model Selection: Leveraging the Random Forest algorithm, known for its robustness and ability to handle diverse data.
+
 .Performance Evaluation: Assessing the trained model’s accuracy on the test data to ensure it generalizes well.
 
 Now import the random forest function from the ensemble module of sklearn and for the training set.
