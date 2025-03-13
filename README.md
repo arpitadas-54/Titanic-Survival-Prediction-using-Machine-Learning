@@ -6,7 +6,11 @@ The primary objective of this project is to develop a machine learning model cap
 There will be three main steps in this experiment:
 
 .Feature Engineering
+
+
 .Imputation
+
+
 .Training and Prediction
 
 For this project, we will utilize the Titanic dataset. The dataset consists of the following files:
