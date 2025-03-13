@@ -12,6 +12,7 @@ There will be three main steps in this experiment:
 .Training and Prediction
 
 For this project, we will utilize the Titanic dataset. The dataset consists of the following files:
+
 1.train.csv: Contains information about the passengers and their survival status, which will be used for training our model. Serves as our primary data source for training and validation, providing both features and target labels.
 
 2.test.csv: Includes details of passengers without survival labels, which we will use for making predictions. Allows us to assess the model’s performance on unseen data, simulating a real-world scenario where predictions must be made for new passengers.
